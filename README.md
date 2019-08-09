@@ -69,7 +69,7 @@ creating an ipynb file. Jupyter notebook renders the ipynb file like this:
 ![help_text_example_screenshot](help_text_example_screenshot.png)
 
 
-The ipynb_extractor utility may be used on this ipynb file as an example:
+The ipynb_extractor utility may be used on this ipynb file. For example:
 
 ```
 $ python3 ipynb_extractor.py help_text_example.ipynb
@@ -94,7 +94,7 @@ help_text_example_03.md
 help_text_example_04.py
 help_text_example_05.md
 ```
-If we exam one of the files then we see that it contains the python code that was in the Jupyter notebook cell:
+If we examine one of the files then we see that it contains the python code that was in the Jupyter notebook cell:
 
 ```
 $ cat help_text_example/help_text_example_04.py
