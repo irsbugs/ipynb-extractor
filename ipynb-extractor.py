@@ -268,7 +268,7 @@ A list of space separated files may be provided. One folder will be created
 for each ipynb file.
 
 The files may be selected by wild-carding with *, or *.ipynb. E.g.
-$ ipynb_creator *.ipynb
+$ ipynb-extractor *.ipynb
 
 
 Notes / Example:
@@ -330,7 +330,7 @@ A list of space separated files may be provided. One folder will be created
 for each ipynb file.
 
 The files may be selected by wild-carding with *, or *.ipynb. E.g.
-$ ipynb_creator *.ipynb
+$ ipynb-extractor *.ipynb
 """
 
 # Continue by calling the main() function routine
