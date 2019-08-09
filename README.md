@@ -1,4 +1,4 @@
-# ipynb_extractor
+# ipynb-extractor
 
 ## Introduction
 
@@ -15,23 +15,23 @@
 
 ## Installation
 
-On the Linux platform the python program *ipynb_extractor.py* may be copied to `/usr/local/bin/` as *ipynb-extractor*. Then change the file to be executable with `sudo chmod +x /usr/loca/bin/ipynb-extractor`.
+On the Linux platform the python program *ipynb-extractor.py* may be copied to `/usr/local/bin/` as *ipynb-extractor*. Then change the file to be executable with `sudo chmod +x /usr/loca/bin/ipynb-extractor`.
 
-Use `chdir` to set your default directory to be where your ipynb file(s) are located that you wish to extract their markdown and code contents. 
+Use `cd` to change your default directory to be where your ipynb file(s) are located that you wish to extract their markdown and code contents. 
 
 ## Help
 
-The programs help summary may be obtained with `$ python3 ipynb_extractor.py -h` while the full help information with examples is obtained with `$ python3 ipynb_extractor.py --help`. For example:
+The programs help summary may be obtained with `$ python3 ipynb-extractor.py -h` while the full help information with examples is obtained with `$ python3 ipynb-extractor.py --help`. For example:
 
 ```
-$ python3 ipynb_extractor.py -h
+$ python3 ipynb-extractor.py -h
 
-ipynb_extractor version: 0.1
+ipynb-extractor version: 0.1
 
 Read a Jupyter notebook (.ipynb) file and extract to a folder 
 the markdown and code cells as markdown.md and python.py files.
 
-Usage: ipynb_extractor [OPTION]... [FILE]...
+Usage: ipynb-extractor [OPTION]... [FILE]...
 
 From Jupyter notebook ipynb file(s) extract the markdown and code cells.
 Create a folder based on the ipynb filename. Extract to the folder the
@@ -69,12 +69,12 @@ creating an ipynb file. Jupyter notebook renders the ipynb file like this:
 ![help_text_example_screenshot](help_text_example_screenshot.png)
 
 
-The ipynb_extractor utility may be used on this ipynb file. For example:
+The ipynb-extractor utility may be used on this ipynb file. For example:
 
 ```
-$ python3 ipynb_extractor.py help_text_example.ipynb
+$ python3 ipynb-extractor.py help_text_example.ipynb
 
-ipynb_extractor version: 0.1
+ipynb-extractor version: 0.1
 
 Read a Jupyter notebook (.ipynb) file and extract to a folder 
 the markdown and code cells as markdown.md and python.py files.
