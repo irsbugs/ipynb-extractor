@@ -54,7 +54,7 @@ A list of space separated files may be provided. One folder will be created
 for each ipynb file.
 
 The files may be selected by wild-carding with *, or *.ipynb. E.g.
-$ ipynb_creator *.ipynb
+$ ipynb-extractor *.ipynb
 
 ```
 
